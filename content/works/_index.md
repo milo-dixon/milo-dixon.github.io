@@ -16,7 +16,10 @@ C-Minus collects my fiction, poems, and longer-running experiments. This page is
   <div class="book-feature__body">
     <h3><em>Specimens</em> (2026)</h3>
     <p>My debut poetry collection.</p>
-    <p><a class="button" href="https://www.amazon.com/Specimens-Milo-Dixon/dp/B0H3SZGWBR/">View on Amazon</a></p>
+    <p class="book-feature__links">
+      <a class="button" href="https://www.amazon.com/Specimens-Milo-Dixon/dp/B0H3SZGWBR/">View <em>Specimens</em> on Amazon</a>
+      <a class="book-feature__secondary" href="https://www.amazon.com/stores/Milo-Dixon/author/B0H73HRZ2Z">Amazon Author Page</a>
+    </p>
   </div>
 </div>
 
