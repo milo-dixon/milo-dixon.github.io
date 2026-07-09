@@ -109,7 +109,7 @@ REASON.append("David")
 
 
 He told me in the hallway in October.  
-The school didn't know yet  
+Nobody at school knew us
 We knew each other.  
 
 He leaned in real close  
@@ -124,13 +124,13 @@ He said it in the hallway to me.
 
 Faggot.  
 
-Fuck. I said that out loud.  
+Fuck. I didn't mean it like that.
+I didn't mean it at all.
+What did I do.
 
 ```text
 # I didn't know anyone was listening
-# that much is true
-# but it’s useless to say now
-# because the hallway was full
+# but it’s useless to say that now
 # they heard by third period
 # the sentence had traveled
 # a game of telephone
@@ -140,20 +140,18 @@ Fuck. I said that out loud.
 # before he was ready
 # I spoke for him
 # I was fifteen and scared
-# I didn’t have the language for what I was
-# or what he was
-# or why the word came out like that
 #
 # none of that is an excuse
-# the program needs context
-# context doesn’t make it okay
+# this program needs context
+# context
+# doesn't change what happened 
 #
-# it is not okay
+# it's not okay
 # I’m not okay
 # redo_counter += 1
 #
 # TARGET_MOMENT = "thursday, october, hallway,
-# the second before I open my mouth"
+# before I open my mouth"
 # ACTION = "lower your voice"
 # ACTION = "look at his face, his eyes, before you speak"
 # ACTION = "remember that his secret is his"
@@ -177,7 +175,7 @@ but I guess we weren't anymore.
 pending_apology["David"] = {
   "delivered" : False,
   "words" : "I announced your secret",
-  "addendum" : "You were brave. I was loud. Those aren’t the same thing.",
+  "addendum" : "You were brave. I was a coward",
   "addendum2" : "I hope you got to tell your own story eventually.",
   "addendum3" : "I hope someone liked you liked you back.",
 }
@@ -235,16 +233,16 @@ I mistook handsfree love for carefree love
 # then kept talking
 # I would say something
 #
-# I would say I am afraid
-# I don't know how to do this but I want to but I'm scared
+# I'd say I am afraid
+# Idk how to do this but I want to, but I'm still scared
 # what if wanting isn't enough
 # Is there a way to know that before we find out together
 # TARGET_MOMENT = "the first night. Remember? "
-# ACTION = "say the true thing"
-# ACTION = "say it before it calcifies "
-# BLOCKER = "I didn't know it was the true thing yet"
+# ACTION = "say it"
+# ACTION = "say it before the moment passes"
+# BLOCKER = "I didn't know it was real"
 # BLOCKER = "I thought I was fine"
-# BLOCKER = "I was not fine"
+# BLOCKER = "I was very clearly not fine"
 # redo_counter += 1
 
 
@@ -255,39 +253,40 @@ REASON.append("me")
 # I kept moving it to the bottom of the file
 
 
-the_version_that_didnt_know_yet = {
+the_teenage_me_that_didnt_know_yet = {
   "age" : [15, 16, 17, 19, 22, 24],
   "core_belief" : "this is all there is",
   "critical_error": "mistook present for permanent",
   "tools" : [], # insufficient
-  "information" : None, # not yet available
+  "information" : None, # nothing available
   "asked_for_help": False, # kept meaning to
   "told_anyone" : False, # couldn't find the words
   "prognosis" : "unknown", # but better than he thought
-  "verdict" : "not broken. uninformed."
+  "verdict" : "I don't think I'm broken."
 }
 ```
 
 
 
-I would go back to every age in that list, but it’s not like it would be anything dramatic  
+I would go back to every age in that list, 
+but it’s not like it would be anything unfathomable
 It’d be more like a map  
 
 I'd go back to 15 and sit on the floor of his bedroom  
 when the game is loading,  
 he likes Fallout 3 and Final Fantasy,  
-and I would not say it gets better because that sounds like bullshit  
-he has already heard that and it hasn't yet  
+and I wouldn't say it gets better because that sounds like bullshit  
+he has already heard that and it hasn't gotten bettyer yet  
 
 So he doesn't believe it, he doesn't believe me.  
 
 I would say:  
 
-you are not the problem.  
 You’re a person with a problem (problems have solutions).  
-you don’t have to fix this with what you have right now  
+so you don’t have to fix this with what you have right now  
 because what you have right now is not enough  
-It’s not your fault.  
+and that's not your fault 
+but I can't make it hurt any less.
 
 ```text
 # I would go back to 19
@@ -330,7 +329,7 @@ It’s not your fault.
 
 def run(reason, courage=True):
     if not courage:
-        sys.exit("not yet")
+        sys.exit("you're not ready yet")
 
 
     for moment in reason:
@@ -385,21 +384,21 @@ if __name__ == "__main__":
 
 I’ll find the flowers you loved and I'll water them.  
 I'll bring the flowers to your grave.  
-I'll sit down next to the me  
-that didn't know who he was yet  
+I'll bring me with me, 
+because I can't be with you  
 
 I'll stay for a while and think about you.  
-I'll wonder if you're proud of me.  
-And I'll try to make you proud of me  
+if you're proud of me.  
+I'll try to make you proud of me  
 even if I never get an answer.  
 
 If I could have changed one thing, it would have changed everything.  
 
 I don't think the machine is going to work.  
 It could never work.  
-It's not real.  
+Time travel is not real. 
 
-The apology is.  
+Can my apology be?
 
 {{< reason-summary >}}
 
