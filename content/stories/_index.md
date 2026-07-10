@@ -1,4 +1,4 @@
 ---
 title: "Stories"
-description: "Short fiction and speculative stories by Milo Dixon."
+description: "Short fiction, science fiction, literary fiction, horror, thrillers, and mysteries by Milo Dixon."
 ---
