@@ -37,7 +37,7 @@ If you are new here, a few good places to start:
 
 ### *STDERR*
 
-A developing project of technical and code-shaped poems concerned with structure, feeling, error, memory, and the strange ways people are processed.
+A developing project of technical and code-shaped poems concerned with structure, feeling, error, memory, and emotional processing.
 
 ## Contact
 
