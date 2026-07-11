@@ -25,15 +25,18 @@ It curls into corners when the light is too much.
 It molts without warning, hides in the dark,  
 and surfaces in strange weather and stranger colors.
 
-My love is both movement and momentum.  
-My love is forget-me-not, even when forgotten.  
+My love is movement.
+My love is momentum.  
+My love is ~forget-me-not~ forgotten.
+
 My love is memory.
 
 My love makes room for leaving and returning,  
 for unfurled proboscis and antennae.
 
-My love abides by square-cube law. It may seem small,  
-but it can lift up to 850 times its own body weight.
+My love abides by square-cube law. 
+It may seem small,  
+but it can lift 850 times its own body weight.
 
 My love is chrysalis, ever evolving, yet forever unchanged.  
 And parts that seem unfamiliar will eventually be the same.
@@ -59,7 +62,7 @@ My love is living.
 My love is wild.  
 My love is a bleeding heart in full bloom.
 
-My love was born of proximity and precision.  
+My love is precise.  
 My love will never forget where it came from.
 
 My love is to touch you in the places  
