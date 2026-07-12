@@ -5,8 +5,8 @@ draft: false
 description: "Divorce is blurry, but at least it's not painful."
 image: "/images/custody-of-rain.jpg"
 image_alt: "Rain on a window at night with blurred city lights"
-image_credit_name: "Pexels"
-image_credit_url: "https://www.pexels.com/"
+image_credit_name: "le john"
+image_credit_url: "https://www.pexels.com/photo/wet-window-with-background-of-city-buildings-and-road-10044816/"
 image_credit_source: "Pexels"
 tags: ["fiction", "science fiction", "literary fiction", "short story", "memory", "queer fiction", "relationships"]
 author: "Milo Dixon"
