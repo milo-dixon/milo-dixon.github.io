@@ -84,7 +84,7 @@ Daniel blinked. “Third-party material?”
 
 Ms. Giles replied, “The Belmont Harbor memory includes a lobby interval, approximate duration six minutes and twelve seconds, in which Mr. Staunton interacted with a third party.”
 
-Daniel looked at Jeremy again, but Jeremy was averting his gaze. A strange sensation was tingling through Daniel. It didn’t feel like jealousy. It felt like stepping on a sheet of ice and hearing it crack.
+A strange sensation tingled through Daniel as he looked at Jeremy again, but Jeremy was averting his gaze.
 
 “What third party?” Daniel asked.
 
@@ -94,9 +94,9 @@ Paul Cera said, “We are not prepared to identify him.”
 
 Oh no.
 
-Memory custody existed because forgetting had become too precise. Before the Jennings protocols, people had cut out whole years to remove one bad argument. They removed a spouse and lost the taste of every meal cooked in that apartment. Daniel had worked with a woman who deleted a child’s illness, then forgot why she hated the smell of rubbing alcohol. The holes in memory were so large that other people could fall into them.
+Memory custody existed because forgetting had become too precise. Before the Jackson protocols, people had cut out whole years to remove one bad argument. They removed a spouse and lost the taste of every meal cooked in that apartment. Daniel had worked with a woman who deleted a child’s illness, then forgot why she hated the smell of rubbing alcohol. The holes in memory were so large that other people could fall into them.
 
-After Jennings, memory became divisible, and the law followed. Any memory jointly reinforced over a relationship of two years or more could qualify as “bonded material”. Bonded material could not be altered unilaterally. In divorce, separation, inheritance dispute, or posthumous identity conflict, each of those memories became subject to a custody hearing.
+After Jackson, memory became divisible, and the law followed. Any memory jointly reinforced over a relationship of two years or more could qualify as “bonded material”. Bonded material could not be altered unilaterally. In divorce, separation, inheritance dispute, or posthumous identity conflict, each of those memories became subject to a custody hearing.
 
 Ms. Giles called a recess.
 
@@ -104,9 +104,9 @@ Daniel went to the bathroom and stood at the sink without turning on the water. 
 
 “Yes,” he said.
 
-The mirror blurred his face. It was the kindest thing that had happened in the last 48 hours. He gripped the sink and tried to summon the Belmont Harbor memory on his own, starting with rain on the windshield. Jeremy laughed because the hotel lobby had a painting of a sailboat that looked like it was drawn in crayon by a kindergartner. The television in their room cutting in and out. The mildewy smell of wet socks. The waffle fries, too salty. Jeremy standing by the room heater in his underwear, holding the paper sleeve, saying, “We’ll miss this later.”
+The mirror blurred his face. It was the kindest thing that had happened in the last 48 hours. He gripped the sink and tried to summon the Belmont Harbor memory on his own, starting with rain on the windshield. Jeremy, giddy because the hotel lobby had a painting of a sailboat that looked like it was drawn in crayon by a kindergartner. The television in their room cutting in and out. The waffle fries, too salty. Jeremy standing by the room heater in his underwear, holding the paper sleeve, saying, “We’ll miss this later.”
 
-Daniel was making googly eyes at him from the bathroom, loving him so much in that moment that he had felt embarrassed by it. An embarrassing amount of love. That was why he wanted the memory.
+Daniel was making googly eyes at him from the bathroom, loving him so much in that moment that he had felt embarrassed by it. An embarrassing amount of love. He wanted this memory. 
 
 He had very little interest in keeping the wedding. Weddings were public spectacles and theirs had been no different despite best efforts to remind Mrs. Staunton that it was supposed to be a “low-key” affair in the backyard. The Belmont Harbor memory was private and stupid and didn’t deserve a ceremony. They hadn’t planned for it, hadn’t dressed for it, and had no intention of staying longer than they had to. It was a memory of being unhappy together but still happy with each other.
 
@@ -114,13 +114,11 @@ Daniel let the mirror restore his face and realized he looked terrible.
 
 “Correct,” he told the mirror.
 
-The mirror did not respond, which was also kind.
-
 When they reconvened, Annika requested a limited preview, to which Jeremy objected. Paul objected too, but in a more expensive way.
 
 Ms. Giles reviewed the sealed metadata and permitted what she called a “low-fidelity contextual sweep.” This meant no direct dialogue from the third party, no facial resolution, and no post-event associative trail. The court accomplished this through selective muffling, muting, and affect privacy.
 
-Daniel did not know what most of this meant, which had been something of a recurring trend in his marriage by the end.
+Daniel didn't know what most of this meant, which had been something of a recurring trend in his marriage by the end.
 
 The room darkened, and the memory opened on the screen.
 
