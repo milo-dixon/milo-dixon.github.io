@@ -2,7 +2,7 @@
 title: "Custody of Rain"
 date: 2026-07-11T18:30:00-05:00
 draft: false
-description: "Divorce is blurry, but at least it's not painful."
+description: "A messy divorce can also be quite blurry in hindsight."
 image: "/images/custody-of-rain.jpg"
 image_alt: "Rain on a window at night with blurred city lights"
 image_credit_name: "Jackson Howes"
