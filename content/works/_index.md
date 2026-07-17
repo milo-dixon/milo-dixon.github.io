@@ -4,7 +4,7 @@ description: "Published work, selected writing, and projects in progress."
 draft: false
 ---
 
-C-Minus collects my fiction, poems, and longer-running experiments. This page is a simple index of published work, selected pieces, and projects that might be ongoing.
+Improper Storytelling collects my fiction, poems, and longer-running experiments. This page is a simple index of published work, selected pieces, and projects that might be ongoing.
 
 ## Published
 

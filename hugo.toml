@@ -1,15 +1,15 @@
 baseURL = 'https://milo-dixon.github.io/'
 languageCode = 'en-us'
-title = 'C-Minus'
+title = 'Improper Storytelling'
 theme = 'ananke'
 enableRobotsTXT = true
 summaryLength = 28
 
 [params]
   author = 'Milo Dixon'
-  description = 'Poetry, fiction, specimens, and the systems that capture it all.'
-  homeHeadline = 'Fiction, poetry, specimens, and records from a life under perpetual revision.'
-  homeIntro = 'C-Minus is the author site of Milo Dixon.'
+  description = 'Fiction, poetry, musings, and projects by Milo Dixon.'
+  homeHeadline = 'Fiction, Poetry, and Musings by Milo Dixon'
+  homeIntro = 'Improper Storytelling is the author site of Milo Dixon.'
   copyright = 'Milo Dixon'
 
 [permalinks]

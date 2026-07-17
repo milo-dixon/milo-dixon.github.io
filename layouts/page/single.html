@@ -3,7 +3,7 @@
   <article class="article">
     <div class="article__intro{{ with $introImage }} article__intro--with-image{{ end }}">
       <header class="article__header">
-        <p class="eyebrow">C-Minus</p>
+        <p class="eyebrow">{{ .Site.Title }}</p>
         <h1>{{ .Title }}</h1>
         {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}
         <div class="article__meta">

@@ -3,7 +3,7 @@
   <article class="article">
     <div class="article__intro">
       <header class="article__header">
-        <p class="eyebrow">{{ if eq .Type "database" }}Database{{ else if eq .Type "page" }}C-Minus{{ else }}{{ .Type | humanize }}{{ end }}</p>
+        <p class="eyebrow">{{ if eq .Type "database" }}Database{{ else if eq .Type "page" }}{{ .Site.Title }}{{ else }}{{ .Type | humanize }}{{ end }}</p>
         <h1>{{ .Title }}</h1>
         {{ if and (ne .Type "database") (ne .Type "poems") }}
           {{ with .Description }}<p class="lede">{{ . }}</p>{{ end }}

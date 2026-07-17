@@ -1,6 +1,6 @@
 ---
-title: "C-Minus"
-description: "Poetry, fiction, specimens, and the systems that capture it all."
+title: "Improper Storytelling"
+description: "Fiction, poetry, musings, and projects by Milo Dixon."
 image: "/images/milo-home.jpg"
 image_alt: "Milo Dixon"
 ---

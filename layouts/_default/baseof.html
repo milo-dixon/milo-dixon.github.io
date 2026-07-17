@@ -25,7 +25,7 @@
   <aside class="site-sidebar" aria-label="Site">
     <div class="site-sidebar__top">
       <a class="brand" href="{{ "/" | relURL }}" aria-label="{{ .Site.Title }} home">
-        <span class="brand__name">C-MINUS</span>
+        <span class="brand__name">{{ .Site.Title }}</span>
         <span class="brand__tagline">by author Milo Dixon</span>
       </a>
       <nav class="site-nav" aria-label="Primary">
@@ -43,7 +43,7 @@
   <div class="site-shell">
     <header class="mobile-header">
       <a class="brand" href="{{ "/" | relURL }}" aria-label="{{ .Site.Title }} home">
-        <span class="brand__name">C-MINUS</span>
+        <span class="brand__name">{{ .Site.Title }}</span>
         <span class="brand__tagline">by author Milo Dixon</span>
       </a>
       <nav class="site-nav" aria-label="Primary">
