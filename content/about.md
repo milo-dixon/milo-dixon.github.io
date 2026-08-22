@@ -3,27 +3,27 @@ title: "About"
 image: "/images/milo-headshot.jpg"
 image_alt: "Milo Dixon"
 ---
-I’m Milo Dixon, a Chicago-based writer and poet.
+I’m Milo Dixon, a Chicago-based writer and poet. Improper Storytelling is my personal author site.
 
-Some people become more interesting as you learn more about them. I am not one of those people; I get less interesting, so I go out of my way to keep most people at a distance.
+I write fiction, poetry, and whatever else seems interesting enough to keep me occupied for a while. A lot of my work ends up circling around people trying to figure themselves out while dealing with identity, relationships, money, family, bad decisions, and the general inconvenience of being alive.
 
-I write a lot about the perilous journey of being a teeny little spec of dust born into a fucked up life in a fucked up world that I did not choose to be a part of but somehow persist through.
+I started writing seriously because I’ve always loved stories. Books, movies, video games, internet rabbit holes, overheard conversations, people watching on the train — basically ANYTHING that gives me an excuse to wonder what somebody else is thinking. I often say that if I could have any superpower, it would be telepathy, easily. Few things are more important to me than understanding people with fascinating minds. 
 
-The best part about a nearly lifelong, debilitating depression is that you can at least make something creative with it, like a whole website!
+I have always been a systems thinker, which has worked well in my professional career as well as my creative endeavors. But this also means that I tend to notice systems everywhere, probably more than is healthy. I like structure, patterns, categories, databases, instructions, processes, and all the things we invent to make life seem more organized than it actually is. Naturally, a lot of that ends up sneaking into my writing too.
 
-I write poetry and fiction and other works **because I hate my fucking life** and writing is one of the only things stopping me from offing myself. You're laughing but I'm not joking. My life is terrible and writing is one of the only things I do that doesn't make me feel like a complete and utter failure. Life has completely broken me into a person who doesn't really feel like a person, or maybe I never have, so I distract myself with fictional people who have much more interesting problems than me.
+My first poetry collection, *Specimens*, took me almost six years to finish, so I should probably establish now that I'm not a particularly fast writer. My novel has also been “in development” since 2021, which is a very professional way of saying I'm still working on it (and occasionally staring at it from across the room).
 
-Fun fact for anybody who is as miserable as I am most days: My first "real" poem was actually my suicide note, which I found 2 years after my attempt on a torn legal pad in the back of a closet and decided it was just bitter enough to be reconstructed into something cathartic that also rhymes. But don't worry, I can write happy stuff too when I feel motivated.
+Some of what I write would be sad if it weren't funny. And some of it would be quite funny if it wasn't so sad. Sometimes it gets weird. If all three happen on the same page, it's likely going to stick with you.
 
-I'm not one to beat around the bush; I write because my life SUCKS and my only reprieve has been books, movies, and video games with good stories. I'm poor as shit, I'm gay, not terribly attractive, and I have to create fictional stories because my real life is remarkably bland and riddled with bad fortune and circumstances that have all but crushed me. 
+The more accessible truth is: **I write because I have found that people are often softer, funnier, and more complicated than they are allowed to be.**
 
-But hey, at least I have popcorn and internet access and my own website.
+And that is probably the closest thing I have to a mission statement.
 
-The more accessible truth is: **I write because I have found that people are often softer, funnier, and more complicated than they are allowed to be.** 
+Between the poems, short stories, Database pieces, and the ongoing evolution of *STDERR*, I’m mostly trying to make things that feel emotionally honest, structurally alive, and recognizably, undeniably human*.
 
-Between my poems, short stories, and the evolution of *STDERR*, I am trying to make work that feels emotionally honest and structurally alive. I'd like to think that I'm consistent but be warned, I'm a slow writer. **Specimens**, my debut collection, took me almost six years. 
-This poetry shit is **not** for the weak.
+This also means that I **do not use or endorse the use of Generative AI in any capacity whatsoever.** Every word that crosses my keyboard is my own, and I intend to PROVE that time and time again through the writings I share on this site. I also enjoy reading drafts and manuscripts, so if you'd like a Beta Reader or just general feedback, I'm happy to assist. 
 
-My first fiction novel has been "in development" since 2021. Turns out that being unemployed and underemployed gives you a LOT of time to write. And writing gives a lot of time to hate your writing and constantly self-edit.
+Anyway, this is where I put all of it.
 
-Browse the site at your leisure and reach out if you want to know more about me.
+Browse around. Read whatever looks interesting. If something I write on Improper Storytelling clicks with you, please use my contact page and let me know!
+
