@@ -30,8 +30,8 @@ Run `git push`
 
 # 6. Monitor!
 
-Monitor <https://github.com/midwestmilo/midwestmilo.github.io/actions> for updates.
+Monitor <https://github.com/milo-dixon/milo-dixon.github.io/actions> for updates.
 
 # 7. View your updated site!
 
-Visit <https://midwestmilo.github.io/>
+Visit <https://milo-dixon.github.io/>

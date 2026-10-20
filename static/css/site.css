@@ -1169,3 +1169,22 @@ main {
   font-size: 0.95rem;
 }
 
+/* Ask a Dead Man Twice release */
+.home-release {
+  border-top: 1px solid var(--line);
+}
+
+.home-release__meta {
+  margin: 0.75rem 0 1.25rem;
+  color: var(--muted);
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.book-feature--text-only {
+  grid-template-columns: 1fr;
+}
+

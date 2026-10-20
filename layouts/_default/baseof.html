@@ -4,13 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
+  <link rel="canonical" href="{{ .Permalink }}">
   <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta name="author" content="{{ .Site.Params.author }}">
-  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ end }}">
+  <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
+  <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
   <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
   {{ with or .Params.featured_image .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+  {{ if .IsHome }}
+    {{ $websiteSchema := dict "@context" "https://schema.org" "@type" "WebSite" "url" .Site.BaseURL "name" .Site.Title "description" .Site.Params.description "publisher" (dict "@type" "Person" "name" .Site.Params.author) }}
+    <script type="application/ld+json">{{ $websiteSchema | jsonify | safeJS }}</script>
+  {{ end }}
   {{ with .OutputFormats.Get "RSS" }}<link rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" href="{{ .Permalink }}">{{ end }}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

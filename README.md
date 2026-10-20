@@ -1,4 +1,6 @@
-#
+# Improper Storytelling
+
+Hugo source for <https://milo-dixon.github.io/>.
 
 ## After cloning
 
