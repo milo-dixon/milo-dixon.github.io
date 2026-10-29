@@ -1,79 +1,135 @@
 {{ define "main" }}
-  {{ $homeImage := .Params.image | default "/images/milo-home.jpg" }}
-  <section class="home-hero">
+<div class="home-page">
+  <section class="home-hero" aria-labelledby="home-heading">
+    <div class="home-masthead">
+      <p class="home-masthead__title">{{ .Site.Title }}</p>
+      <p class="home-label">{{ .Site.Params.author }}</p>
+    </div>
     <div class="home-hero__copy">
-      <p class="eyebrow">Welcome</p>
-      <h1>{{ .Site.Params.homeHeadline }}</h1>
-      <p class="lede">Improper Storytelling is the author site of Milo Dixon: his work includes science fiction, horror, thrillers, mysteries, poetry, and technical literature</p>
-      <a class="button" href="#explore">Browse the site</a>
+      <h1 id="home-heading">{{ .Params.headline }}</h1>
+      <p class="lede">{{ .Description }}</p>
+      <div class="home-actions">
+        <a class="button" href="#latest-release">Discover the latest book</a>
+        <a class="home-text-link" href="#read-free">Read something free <span aria-hidden="true">&darr;</span></a>
+      </div>
     </div>
-
-    <div class="home-hero__visual">
-      <p class="home-hero__caption">Strange weather. Stranger colors.</p>
-      <figure class="home-hero__image">
-        <img src="{{ $homeImage | relURL }}" alt="{{ .Params.image_alt | default .Site.Params.author }}" loading="eager">
-      </figure>
-    </div>
+    <figure class="home-hero__visual">
+      <img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt }}" width="3648" height="5472">
+    </figure>
   </section>
 
-  <section class="section home-release" aria-labelledby="new-release-heading">
-    <p class="eyebrow">New Release</p>
-    <h2 id="new-release-heading"><em>Ask a Dead Man Twice</em></h2>
-    <p class="home-release__meta">A Novella · 2026 · Available now</p>
-    <p>Oswald McBride is a retired history professor who thinks a man he killed in a car crash has followed him home. As strange things begin happening around the house, he starts keeping a record to prove he isn't imagining them.</p>
-<p><em>This is a ghost story. But it might not be the one he's telling you.</em></p>
-<a class="button" href="{{ "works/ask-a-dead-man-twice/" | relURL }}">Read about the book</a>
-</section>
-
-<section class="explore" id="explore" aria-labelledby="explore-heading">
-    <div class="explore__inner">
-      <div class="section__header">
-        <p class="eyebrow">Explore</p>
-        <h2 id="explore-heading">The Cabinet</h2>
-      </div>
-      <div class="path-grid">
-        <a class="path-link" href="{{ "works/" | relURL }}">
-          <span class="path-link__marker" aria-hidden="true">▤</span>
-          <span class="path-link__title">Works</span>
-          <small>Published work, external links, and pieces in progress.</small>
-          <span class="path-link__action">View &rarr;</span>
-        </a>
-        <a class="path-link" href="{{ "stories/" | relURL }}">
-          <span class="path-link__marker" aria-hidden="true">✎</span>
-          <span class="path-link__title">Stories</span>
-          <small>Science fiction, literary fiction, horror, thrillers, mysteries, and overall weirdness.</small>
-          <span class="path-link__action">View &rarr;</span>
-        </a>
-        <a class="path-link" href="{{ "poems/" | relURL }}">
-          <span class="path-link__marker" aria-hidden="true">◇</span>
-          <span class="path-link__title">Poems</span>
-          <small>Poems, visual pieces, rain clouds, and barometric pressure.</small>
-          <span class="path-link__action">View &rarr;</span>
-        </a>
-        <a class="path-link" href="{{ "database/" | relURL }}">
-          <span class="path-link__marker" aria-hidden="true">⌘</span>
-          <span class="path-link__title">Database</span>
-          <small>Programs, analytics, and long-term observation.</small>
-          <span class="path-link__action">View &rarr;</span>
-        </a>
-        <a class="path-link" href="{{ "about/" | relURL }}">
-          <span class="path-link__marker" aria-hidden="true">○</span>
-          <span class="path-link__title">About</span>
-          <small>Context for Improper Storytelling, Milo Dixon, and the field station.</small>
-          <span class="path-link__action">View &rarr;</span>
-        </a>
+  {{ with .Site.GetPage "/works/ask-a-dead-man-twice" }}
+  <section class="home-release" id="latest-release" aria-labelledby="release-heading">
+    <figure class="home-release__cover">
+      <img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt }}" width="1294" height="2000">
+    </figure>
+    <div class="home-release__copy">
+      <p class="home-label">Latest release / A novella / {{ .Date.Format "2006" }}</p>
+      <h2 id="release-heading"><em>{{ .Title }}</em></h2>
+      <p>Oswald McBride is a retired history professor who believes a man killed in a car crash has followed him home. He starts documenting everything.</p>
+      <p class="home-release__line">This is a ghost story. But it might not be the one he’s telling you.</p>
+      <div class="home-actions">
+        <a class="button" href="{{ .RelPermalink }}">Discover the book</a>
+        <a class="home-text-link" href="https://a.co/d/070PukSH">Buy on Amazon <span aria-hidden="true">&nearr;</span></a>
       </div>
     </div>
   </section>
+  {{ end }}
 
-  <section class="home-quote" aria-label="Author note">
-    <blockquote>
-      <p>&ldquo;I write because I have found that people are often softer, funnier, and more complicated than they are allowed to be.&rdquo;</p>
-      <cite>&mdash; M.D.</cite>
-    </blockquote>
-    <div class="elsewhere">
-      <p class="eyebrow">Elsewhere / Contact</p>
-      <p>Improper Storytelling is my home base for fiction, poems, Database pieces, and publications. To reach me directly, use the <a href="{{ "contact/" | relURL }}">Contact page</a>. For professional background, find me on <a href="https://www.linkedin.com/in/dorsey-m-dixon/" rel="me">LinkedIn</a>.</p>
+  <section class="explore" id="explore" aria-labelledby="explore-heading">
+    <div class="home-section-heading">
+      <p class="home-label">An index of interests</p>
+      <h2 id="explore-heading">The Cabinet</h2>
+      <p>Open a drawer. Follow whatever catches your attention.</p>
+    </div>
+    <ol class="cabinet-index">
+      <li><a href="{{ "works/" | relURL }}">
+        <span class="home-label cabinet-index__number" aria-hidden="true">01</span>
+        <span class="cabinet-index__title">Books / Works</span>
+        <span class="cabinet-index__note">Published books, selected writing, and work in progress.</span>
+        <span class="cabinet-index__arrow" aria-hidden="true">&rarr;</span>
+      </a></li>
+      <li><a href="{{ "stories/" | relURL }}">
+        <span class="home-label cabinet-index__number" aria-hidden="true">02</span>
+        <span class="cabinet-index__title">Stories</span>
+        <span class="cabinet-index__note">Free fiction: strange weather, uncertain memories, complicated people.</span>
+        <span class="cabinet-index__arrow" aria-hidden="true">&rarr;</span>
+      </a></li>
+      <li><a href="{{ "poems/" | relURL }}">
+        <span class="home-label cabinet-index__number" aria-hidden="true">03</span>
+        <span class="cabinet-index__title">Poems</span>
+        <span class="cabinet-index__note">Read poems from <em>Specimens</em>, one piece at a time.</span>
+        <span class="cabinet-index__arrow" aria-hidden="true">&rarr;</span>
+      </a></li>
+      <li><a href="{{ "database/" | relURL }}">
+        <span class="home-label cabinet-index__number" aria-hidden="true">04</span>
+        <span class="cabinet-index__title">Database</span>
+        <span class="cabinet-index__note">Code-shaped poems, fragments, and experiments in being human.</span>
+        <span class="cabinet-index__arrow" aria-hidden="true">&rarr;</span>
+      </a></li>
+      <li><a href="{{ "about/" | relURL }}">
+        <span class="home-label cabinet-index__number" aria-hidden="true">05</span>
+        <span class="cabinet-index__title">About</span>
+        <span class="cabinet-index__note">The writer behind the work. A little context for all of this.</span>
+        <span class="cabinet-index__arrow" aria-hidden="true">&rarr;</span>
+      </a></li>
+    </ol>
+  </section>
+
+  <section class="home-reading" id="read-free" aria-labelledby="reading-heading">
+    <div class="home-section-heading">
+      <p class="home-label">Selected reading / Free to read</p>
+      <h2 id="reading-heading">Read something free.</h2>
+      <p>A story, a poem, a small experiment. Three places to begin.</p>
+    </div>
+    <div class="reading-list">
+      {{ range slice
+        (dict "path" "/stories/the-lowest-places-first" "label" "Fiction" "excerpt" "A storm is coming, and the map already knows where the water should go.")
+        (dict "path" "/poems/two-sculptures-meet" "label" "Poetry" "excerpt" "She was carved from thunderstorms. And he, from wind.")
+        (dict "path" "/database/readme-md" "label" "Database / Experiment" "excerpt" "This repository contains the current version of a person still under active development.")
+      }}
+        {{ $selection := . }}
+        {{ with $.Site.GetPage .path }}
+        <article class="reading-entry">
+          <p class="home-label">{{ $selection.label }}</p>
+          <div>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }} <span aria-hidden="true">&rarr;</span></a></h3>
+            <p>{{ $selection.excerpt }}</p>
+            <a class="home-text-link" href="{{ .RelPermalink }}">Read {{ .Title }} <span aria-hidden="true">&rarr;</span></a>
+          </div>
+        </article>
+        {{ end }}
+      {{ end }}
     </div>
   </section>
+
+  <section class="home-specimens" aria-labelledby="specimens-heading">
+    <figure class="home-specimens__cover">
+      <img src="{{ "images/specimens-cover.jpg" | relURL }}" alt="Cover of Specimens by Milo Dixon" width="2560" height="4096" loading="lazy">
+    </figure>
+    <div>
+      <p class="home-label">The poetry collection / 2026</p>
+      <h2 id="specimens-heading"><em>Specimens</em></h2>
+      <p>My debut poetry collection. Almost six years in the making.</p>
+      <div class="home-actions">
+        <a class="home-text-link" href="https://www.amazon.com/Specimens-Milo-Dixon/dp/B0H3SZGWBR/">Find Specimens on Amazon <span aria-hidden="true">&nearr;</span></a>
+        <a class="home-text-link" href="{{ "poems/" | relURL }}">Read the poems <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-author" aria-labelledby="author-heading">
+    <img src="{{ "images/milo-headshot.jpg" | relURL }}" alt="Milo Dixon" width="1733" height="1715" loading="lazy">
+    <div>
+      <p class="home-label">A note from the author</p>
+      <h2 id="author-heading">I’m Milo.</h2>
+      <p>A Chicago-based writer and poet. I write about people trying to figure themselves out, and the systems we invent to make life seem more organized than it is.</p>
+      <p>If something here clicks with you, I’d like to hear about it.</p>
+      <div class="home-actions">
+        <a class="home-text-link" href="{{ "about/" | relURL }}">More about me <span aria-hidden="true">&rarr;</span></a>
+        <a class="home-text-link" href="{{ "contact/" | relURL }}">Get in touch <span aria-hidden="true">&rarr;</span></a>
+      </div>
+    </div>
+  </section>
+</div>
 {{ end }}

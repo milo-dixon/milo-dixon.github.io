@@ -15,7 +15,7 @@ Improper Storytelling collects my fiction, poems, and longer-running experiments
 
   <div class="book-feature__body">
     <h3><em>Ask a Dead Man Twice</em> (2026)</h3>
-    <p>A novella.</p>
+    <p>A novel.</p>
     <p>Oswald McBride is a retired history professor who thinks a man he killed in a car crash has followed him home. As strange things begin happening around the house, he starts keeping a record to prove he isn't imagining them.</p>
     <p><em>This is a ghost story. But it might not be the one he's telling you.</em></p>
     <p class="book-feature__links">
