@@ -10,9 +10,10 @@
   <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}">
   <meta property="og:site_name" content="{{ .Site.Title }}">
   <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
-  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:type" content="{{ if eq .Layout "publication" }}book{{ else if .IsPage }}article{{ else }}website{{ end }}">
   <meta property="og:url" content="{{ .Permalink }}">
   {{ with or .Params.featured_image .Params.image }}<meta property="og:image" content="{{ . | absURL }}">{{ end }}
+  {{ block "head" . }}{{ end }}
   {{ if .IsHome }}
     {{ $websiteSchema := dict "@context" "https://schema.org" "@type" "WebSite" "url" .Site.BaseURL "name" .Site.Title "description" .Site.Params.description "publisher" (dict "@type" "Person" "name" .Site.Params.author) }}
     <script type="application/ld+json">{{ $websiteSchema | jsonify | safeJS }}</script>

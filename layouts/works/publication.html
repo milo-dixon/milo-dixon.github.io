@@ -1,0 +1,63 @@
+{{ define "head" }}
+  <link rel="stylesheet" href="{{ "css/publication.css" | relURL }}">
+  <meta property="og:image:alt" content="{{ .Params.image_alt }}">
+  <meta property="book:author" content="{{ "about/" | absURL }}">
+  <meta property="book:release_date" content="{{ .Date.Format "2006-01-02" }}">
+  {{ $book := dict "@context" "https://schema.org" "@type" "Book" "name" .Title "author" (dict "@type" "Person" "name" .Params.author) "datePublished" (.Date.Format "2006-01-02") "image" (.Params.image | absURL) "url" .Permalink "description" .Description }}
+  <script type="application/ld+json">{{ $book | jsonify | safeJS }}</script>
+{{ end }}
+
+{{ define "main" }}
+<article class="publication">
+  <section class="publication__hero" aria-labelledby="book-title">
+    <header>
+      <p class="publication__label">{{ .Params.form }} / {{ .Date.Format "2006" }}</p>
+      <h1 id="book-title"><em>{{ .Title }}</em></h1>
+      <p class="publication__byline">{{ .Params.author }}</p>
+      <p class="publication__tagline">{{ .Params.tagline }}</p>
+    </header>
+    <figure class="publication__cover">
+      <img src="{{ .Params.image | relURL }}" alt="{{ .Params.image_alt }}" width="{{ .Params.image_width }}" height="{{ .Params.image_height }}">
+    </figure>
+    <div class="publication__actions">
+      {{ range .Params.links }}
+      <a class="button" href="{{ .url }}">{{ .label }} <span aria-hidden="true">&nearr;</span></a>
+      {{ end }}
+    </div>
+  </section>
+
+  <div class="publication__body">
+    <section class="publication__synopsis" aria-labelledby="synopsis-heading">
+      <p class="publication__label">The story</p>
+      <h2 id="synopsis-heading">Synopsis</h2>
+      <div class="publication__prose">{{ .Content }}</div>
+    </section>
+
+    <section class="publication__record" aria-labelledby="record-heading">
+      <p class="publication__label">Publication record</p>
+      <h2 id="record-heading">Book details</h2>
+      <dl>
+        <div><dt>Author</dt><dd>{{ .Params.author }}</dd></div>
+        <div><dt>Form</dt><dd>{{ .Params.form }}</dd></div>
+        <div><dt>Published</dt><dd><time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time></dd></div>
+        <div><dt>Formats</dt><dd>{{ delimit .Params.formats ", " }}</dd></div>
+      </dl>
+    </section>
+  </div>
+
+  {{ with .Params.author_note }}
+  <section class="publication__author" aria-labelledby="book-author-heading">
+    <p class="publication__label">Behind the book</p>
+    <h2 id="book-author-heading">About the author</h2>
+    <p>{{ . }}</p>
+  </section>
+  {{ end }}
+
+  <nav class="publication__discovery" aria-label="Explore more writing">
+    <a href="{{ "works/" | relURL }}">All works <span aria-hidden="true">&rarr;</span></a>
+    <a href="{{ "stories/" | relURL }}">Read free fiction <span aria-hidden="true">&rarr;</span></a>
+    <a href="{{ "about/" | relURL }}">About {{ .Params.author }} <span aria-hidden="true">&rarr;</span></a>
+    <a href="{{ "/" | relURL }}">{{ .Site.Title }} home <span aria-hidden="true">&rarr;</span></a>
+  </nav>
+</article>
+{{ end }}

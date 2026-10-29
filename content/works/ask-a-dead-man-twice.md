@@ -6,15 +6,20 @@ draft: false
 url: "/works/ask-a-dead-man-twice/"
 image: "/images/ask-a-dead-man-twice-cover.jpg"
 image_alt: "Cover of Ask a Dead Man Twice by Milo Dixon"
+image_width: 1294
+image_height: 2000
+layout: publication
+author: "Milo Dixon"
+form: "Novella"
+tagline: "Ask once if you're curious. Ask twice if you're sure."
+formats: ["Kindle", "paperback", "hardcover"]
+links:
+  - label: "Buy on Amazon"
+    url: "https://a.co/d/070PukSH"
+  - label: "Find on Goodreads"
+    url: "https://www.goodreads.com/book/show/261837808-ask-a-dead-man-twice"
+author_note: "I’m Milo Dixon, a Chicago-based writer and poet. Improper Storytelling is my personal author site."
 ---
-
-*Ask once if you're curious. Ask twice if you're sure.*
-
-**Milo Dixon · A Novella · 2026**
-
-**Available now in Kindle, paperback, and hardcover.**
-
-<a class="button" href="https://a.co/d/070PukSH">View on Amazon</a>
 
 Oswald McBride is a retired history professor who, alongside his psychiatrist husband Alfred, developed a shared ritual for grief: whenever someone close to them dies, they write questions to the deceased and imagine the answers.
 
@@ -29,7 +34,3 @@ At first, Oz only wants an answer.
 Then Martell starts asking questions too.
 
 > This is a ghost story. But it might not be the one he's telling you.
-
-## More from Milo Dixon
-
-[Browse all published work](/works/) · [Read short fiction](/stories/) · [Browse poetry](/poems/) · [About Milo Dixon](/about/)
