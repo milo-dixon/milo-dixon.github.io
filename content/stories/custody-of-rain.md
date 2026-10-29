@@ -292,8 +292,6 @@ He turned back.
 
 “No.”
 
-He laughed again, worse this time.
-
 “How elegant.”
 
 Annika said nothing.
@@ -456,5 +454,3 @@ He stood still and remembered what he knew. He had loved a man in weather like t
 Across the street, two men ran through the rain holding a jacket over both their heads. One of them slipped and fell into a puddle near a fire hydrant. The other started laughing before extending his hand and pulling him back up. It seemed impossible that something shared so often could belong to no one. But there it was, touching every surface without keeping any of them.
 
 Daniel was grateful for that.
-
-For the first time in years, no one had custody of the rain.
